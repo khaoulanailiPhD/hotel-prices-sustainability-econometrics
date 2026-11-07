@@ -59,10 +59,7 @@ if (!dir.exists(output_dir)) {
 # ============================================================
 
 data_path <- paste0(
-  "C:/Users/Khaoula Naili/OneDrive - Université de ",
-  "Franche-Comté (univ-fcomte.fr)/Bureau/",
-  "chapitre4/data_preparing_booking_final/",
-  "scraping/data_17_09_2025.xlsx"
+  "data.xlsx"
 )
 
 data <- read_excel(data_path)
